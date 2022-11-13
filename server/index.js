@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const nodemailer = require("nodemailer");
-const port = 3000;
+const port = 80;
 app.use(express.urlencoded());
 
 app.get("/", function (request, response, next) {
