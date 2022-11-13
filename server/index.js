@@ -44,6 +44,4 @@ app.post("/", function (request, response, next) {
   main(request.body).catch(console.error);
 });
 
-app.listen(port, () => {
-  console.log(`nodemailerProject is listening at http://localhost:${port}`);
-});
+app.listen();
